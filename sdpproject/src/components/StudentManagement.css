@@ -1,0 +1,68 @@
+/* StudentManagement.css - Styles for student management modal/page */
+.sm-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 32px;
+}
+.sm-form {
+  margin-bottom: 2rem;
+}
+.sm-input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.sm-checkbox-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.sm-checkbox {
+  margin-right: 0.5rem;
+}
+.sm-add-btn {
+  width: 100%;
+  background: #36a2eb;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 12px #36a2eb33;
+}
+.sm-list {
+  list-style: none;
+  padding: 0;
+}
+.sm-list-item {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.sm-toggle-btn {
+  background: #36a2eb;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 1rem;
+  box-shadow: 0 2px 8px #36a2eb22;
+}
+.sm-access-yes {
+  color: green;
+  font-size: 1.3rem;
+}
+.sm-access-no {
+  color: red;
+  font-size: 1.3rem;
+}
